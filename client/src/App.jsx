@@ -5,7 +5,6 @@ import Header from "./Components/Header";
 import Discussion from "./Components/Discussion";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
-import Dummy from "./Components/Dummy";
 import Signup from "./Components/Signup";
 import Profile from "./Components/Profile";
 import Collaborators from "./Components/Collaborators";
