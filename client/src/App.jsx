@@ -22,7 +22,6 @@ export default function App() {
           <Route path="/data-visual/:userId" element={<DataVisualization />} />
           <Route path="/discussion/:userId" element={<Discussion />} />
           <Route path="/collaborators/:userId" element={<Collaborators />} />
-          <Route path="/dummy" element={<Dummy />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/user-profile/:userId" element={<Profile />} />
           <Route path="*" element={<h1>Page not found 404!</h1>} />
