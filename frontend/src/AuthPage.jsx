@@ -6,7 +6,7 @@ const AuthPage = (props) => {
         const {value} = e.target[0];
 
        axios.post(
-            'http://localhost:3000/authenticate',
+            'https://node-js-react-js-chatapp-api.vercel.app/authenticate',
             {username: value}
         )
         .then(r => props.onAuth({...r.data, secret: value}))
